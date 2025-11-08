@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Product Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        .left-section {
+            flex: 1;
+            background: url('your-image-url.jpg') center/cover;
+            /* Or use a solid color like background: #ff5722; */
+        }
+        .right-section {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .crypto-payment {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .creator {
+            margin-top: 30px;
+            font-style: italic;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-section">
+        <!-- Your image will be displayed here -->
+    </div>
+    <div class="right-section">
+        <h1 class="title">Your Custom Title</h1>
+        <div class="price">$7</div>
+        <p class="description">
+            Your product description here. Explain what your template/product/ebook offers,
+            including guides, advice, and how it helps unlock potential.
+        </p>
+        
+        <div class="crypto-payment">
+            <h3>Crypto Payment Only</h3>
+            <p>Pay with Bitcoin, Ethereum, or other cryptocurrencies.</p>
+            <p>Scan the QR code or copy the address below:</p>
+            <!-- Add your crypto payment info here -->
+        </div>
+        
+        <a href="#" class="btn">Buy Now with Crypto</a>
+        
+        <div class="creator">
+            Meet the creator: @yourhandle
+        </div>
+    </div>
+</body>
+</html>
